@@ -5,7 +5,7 @@
         "name": "C/C++: g++ build and debug active file",
         "type": "cppdbg",
         "request": "launch",
-        "program": "${fileDirname}/${fileBasenameNoExtension}",  // 需与 tasks.json 的输出路径一致
+        "program": "${fileDirname}/output/${fileBasenameNoExtension}",  // 需与 tasks.json 的输出路径一致
         "args": [],
         "stopAtEntry": false,
         "cwd": "${fileDirname}",

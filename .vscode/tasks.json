@@ -10,7 +10,7 @@
 		  "-g",                                 // 生成调试信息
 		  "${file}",                             // 当前文件（如 main.cpp）
 		  "-o",
-		  "${fileDirname}/${fileBasenameNoExtension}"  // 输出可执行文件路径
+		  "${fileDirname}/output/${fileBasenameNoExtension}"  // 输出可执行文件路径
 		],
 		"options": {
 		  "cwd": "${fileDirname}"
