@@ -13,7 +13,7 @@ int main(){
     ll n;
     cin>>n;
     for(int i=1;i<=n;i++){
-        prefix[i]=prefix[i-1]+arr[i];
+        prefix[i]=prefix[i-1]+arr[i-1];
     }
     ll l,r;
     cin>>l>>r;
