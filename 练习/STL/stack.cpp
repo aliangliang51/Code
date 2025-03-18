@@ -1,6 +1,13 @@
 #include <iostream>
 #include <stack>
 using namespace std;
+
+//基本操作
+// push(x) 压栈
+// pop() 弹栈
+// top() 返回栈顶元素
+// empty() 判断栈是否为空
+// size() 返回栈的大小
 int main(){
     // stack<int> s; // 声明栈
     stack<int> s;
