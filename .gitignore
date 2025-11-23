@@ -5,3 +5,5 @@ pythonOpenCV/zhoumoTest/资源文件/video1.mp4
 *.mp4
 *.flv
 *.xml
+*.avi
+*.iml
